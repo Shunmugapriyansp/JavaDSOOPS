@@ -38,7 +38,8 @@ public class Link{
 	theLinklist.removeFirst();
 	theLinklist.display();
 }
- 
+
+
 }
  
  class Linklist{
@@ -51,9 +52,7 @@ public class Link{
 	return (firstLink==null);
 	
 	 }
- 
- 
- 
+
  public void insertFirstLink(String bookName, int millionsSold){
 	 Link newLink = new Link(bookName, millionsSold);
 	 newLink.next= firstLink;
@@ -128,6 +127,7 @@ public Link removeLink(String bookName) {
 		System.out.println("List is Empty");
 		return null;	
 	}
-}
 
+
+}
 }	
